@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'cell line to command line';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'blog https://divingintogeneticsandgenomics.rbind.io/';
+    : 'The future is YOU';
 
   return {
     name,
